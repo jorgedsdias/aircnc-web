@@ -69,7 +69,7 @@ export default function Dashboard() {
                         <header style={{ backgroundImage: `url(${spot.thumbnail_url})` }} />
                         <strong>{spot.company}</strong>
                         <span>{spot.price ? `R$${spot.price}/dia` : 'GRATUITO'}</span>
-                        <a href={() => {}} onClick={() => { if(window.confirm('Quer mesmo remover esse spot?')) { handleRemove(spot._id) } }} className="removerSpot">REMOVER SPOT</a>
+                        <Link onClick={() => { if(window.confirm('Quer mesmo remover esse spot?')) { handleRemove(spot._id) } }} className="removerSpot">REMOVER SPOT</Link>
                     </li>
                 ))}
             </ul>
