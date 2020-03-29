@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "579df7e0c8f16a30b84df750b83e7c78",
+    "revision": "86746c8bee36466a86b0772517816886",
     "url": "/aircnc-web/index.html"
   },
   {
-    "revision": "ba3b38807045a6d89b25",
+    "revision": "8fc71985de3f30aa05a5",
     "url": "/aircnc-web/static/css/main.892601fc.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aircnc-web/static/js/2.44f2a03e.chunk.js"
   },
   {
-    "revision": "ba3b38807045a6d89b25",
-    "url": "/aircnc-web/static/js/main.8739e061.chunk.js"
+    "revision": "8fc71985de3f30aa05a5",
+    "url": "/aircnc-web/static/js/main.72ce6872.chunk.js"
   },
   {
     "revision": "445a7ef733085f7343aa",
