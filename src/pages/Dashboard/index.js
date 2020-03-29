@@ -9,7 +9,7 @@ export default function Dashboard() {
     const [requests, setRequests] = useState([]);
 
     const user_id = localStorage.getItem('user');
-    const socket = useMemo(() => socketio('http://localhost:3333', {
+    const socket = useMemo(() => socketio('https://my-aircnc.herokuapp.com', {
         query: { user_id },
     }), [user_id]);
 
@@ -69,7 +69,7 @@ export default function Dashboard() {
                         <header style={{ backgroundImage: `url(${spot.thumbnail_url})` }} />
                         <strong>{spot.company}</strong>
                         <span>{spot.price ? `R$${spot.price}/dia` : 'GRATUITO'}</span>
-                        <a href="#" onClick={() => { if(window.confirm('Quer mesmo remover esse spot?')) { handleRemove(spot._id) } }} className="removerSpot">REMOVER SPOT</a>
+                        <a href={() => {}} onClick={() => { if(window.confirm('Quer mesmo remover esse spot?')) { handleRemove(spot._id) } }} className="removerSpot">REMOVER SPOT</a>
                     </li>
                 ))}
             </ul>
