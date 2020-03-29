@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import api from '../../services/api';
 
-export default function Login({ history }) {
+export default function Login() {
     const [email, setEmail] = useState('');
+    const history = useHistory();
 
     async function handleSubmit(e) {
       e.preventDefault();
