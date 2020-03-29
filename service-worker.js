@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aircnc-web/precache-manifest.e6ff2cb05bba4de9930e5e9041f1839e.js"
+  "/aircnc-web/precache-manifest.065ff3a1fb416fe62d15ed8b01a06675.js"
 );
 
 self.addEventListener('message', (event) => {

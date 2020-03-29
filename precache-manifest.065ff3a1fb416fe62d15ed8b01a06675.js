@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffe89fee7a53eb0d46cac9fbf751d572",
+    "revision": "8731bff8ede821c0e4b8fc0b9c4fc143",
     "url": "/aircnc-web/index.html"
   },
   {
