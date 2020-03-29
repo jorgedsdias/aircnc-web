@@ -7,7 +7,7 @@ import New from './pages/New';
 
 export default function Routes() {
     return (
-        <BrowserRouter basename="build">
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route path="/" exact component={Login} />
                 <Route path="/dashboard" component={Dashboard} />
